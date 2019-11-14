@@ -13,7 +13,7 @@
 這裡所使用的是其中一個 review.json 內 text 欄位的內容
 
 ## 說明
-主要分成兩個部分
+主要分成以下幾個部分
 
 第一個部分是清理文字內容，可以參考 yelp_review_preprocess.py
 
