@@ -5,25 +5,26 @@
 
 
 
-## 說明
-# 資料集
+# 說明
+
+## 資料集
 資料集內容可以參考[Yelp Dataset](https://www.yelp.com/dataset)，有針對 Dataset 的內容說明
 
 這裡所使用的是其中一個 review.json 內 text 欄位的內容來作 word2vec
 
-#程式
+## 程式
 主要分成以下幾個部分：
 
 第一個部分 : 清理文字內容，可以參考 yelp_review_preprocess.py
            （不使用stopword，因此將該段註解掉)
 
 第二個部分 : 建立 word2vec 模型，為了方便執行，因此分成兩個
-         - CBOW(Continuous bag of words) : yelp_review_w2v_cbow.py
-         - Skip-Gram : yelp_review_w2v_skgram.py
+         * CBOW(Continuous bag of words) : yelp_review_w2v_cbow.py
+         * Skip-Gram : yelp_review_w2v_skgram.py
 
 第三個部分 : 進行檢視訓練後的結果，可以參考 yelp_review.ipynb
 
-#模型（位在 /models）
+## 模型（位在 /models）
 CBOW(Continuous bag of words) : yelp_cbow
 
 Skip-Gram : yelp_skipgram
