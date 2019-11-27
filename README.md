@@ -16,26 +16,28 @@
 主要分成以下幾個部分：
 
 第一個部分 : 清理文字內容，可以參考 yelp_review_preprocess.py
+           
            （不使用stopword，因此將該段註解掉)
 
 第二個部分 : 建立 word2vec 模型，為了方便執行，因此分成兩個
+
          * CBOW(Continuous bag of words) : yelp_review_w2v_cbow.py
+
          * Skip-Gram : yelp_review_w2v_skgram.py
 
 第三個部分 : 進行檢視訓練後的結果，可以參考 yelp_review.ipynb
 
 ## 模型（位在 /models）
-CBOW(Continuous bag of words) : yelp_cbow
+1. CBOW(Continuous bag of words) : yelp_cbow
 
-Skip-Gram : yelp_skipgram
+2. Skip-Gram : yelp_skipgram
 
 
-清理資料時有使用 stop words 後所建立的模型
-models/use_stopwords/
+清理資料時有使用 stop words 後所建立的模型，位在 models/use_stopwords/
 
-CBOW(Continuous bag of words) : cbow_yelp_stopwords
+1. CBOW(Continuous bag of words) : cbow_yelp_stopwords
 
-Skip-Gram : skipgram_yelp_stopwords
+2. Skip-Gram : skipgram_yelp_stopwords
 
 
 
