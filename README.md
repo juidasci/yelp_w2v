@@ -24,9 +24,9 @@
 第三個部分 : 進行檢視訓練後的結果，可以參考 yelp_review.ipynb
 
 ## 模型（位在 /models）
-1. CBOW(Continuous bag of words) : yelp_cbow
+1. CBOW(Continuous bag of words) : [yelp_cbow](https://drive.google.com/open?id=1gBm_5wH9j4wAiwGCwRwwcvtzrzDE1Ngi)
 
-2. Skip-Gram : yelp_skipgram
+2. Skip-Gram : [yelp_skipgram]()
 
 
 清理資料時有使用 stop words 後所建立的模型，位在 models/use_stopwords/
